@@ -15,7 +15,7 @@ function ListBeasiswa() {
   const [dataBeasiswa, setDataBeasiswa] = React.useState([]);
 
   React.useEffect(() => {
-    document.title = 'Daftar Beasiswa';
+    document.title = 'Daftar Beasiswa di Ajukan';
     getAllData();
   }, []);
 

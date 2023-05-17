@@ -29,7 +29,7 @@ function FormBeasiswa() {
   });
 
   React.useEffect(() => {
-    document.title = 'Daftar Beasiswa';
+    document.title = 'Form Pendaftaran Beasiswa';
     handleIPK(formBeasiswa.currentSemester);
   }, [formBeasiswa.currentSemester]);
 

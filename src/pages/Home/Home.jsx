@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 function Home() {
   const navigate = useNavigate();
   React.useEffect(() => {
-    document.title = 'Home | Example React JS Program';
+    document.title = 'Home | Pilihan Beasiswa';
   }, []);
 
   return (
